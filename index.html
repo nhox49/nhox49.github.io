@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Hero Section -->
+    <section class="relative bg-blue-600 text-white h-screen flex items-center">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://via.placeholder.com/1500');"></div>
+        <div class="container mx-auto px-6 z-10 text-center relative">
+            <h1 class="text-5xl font-extrabold leading-tight mb-4">Chào mừng đến với Sản Phẩm Của Chúng Tôi</h1>
+            <p class="text-xl mb-6">Khám phá các tính năng tuyệt vời giúp bạn đạt được mục tiêu của mình dễ dàng hơn.</p>
+            <a href="#features" class="bg-white text-blue-600 py-3 px-8 rounded-full text-lg font-semibold hover:bg-gray-100 transition duration-300">Khám Phá Ngay</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12">Tính Năng Nổi Bật</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+                <div class="bg-gray-50 p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Tính Năng 1</h3> 
+                    <p class="text-gray-600">Mô tả ngắn về tính năng này và cách nó giúp người dùng có thể dễ dàng sử dụng sản phẩm của bạn.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Tính Năng 2</h3>
+                    <p class="text-gray-600">Giới thiệu về tính năng thứ 2, giúp người dùng cải thiện hiệu suất công việc hoặc cuộc sống của họ.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Tính Năng 3</h3>
+                    <p class="text-gray-600">Giải thích về một tính năng khác mang lại giá trị lớn cho người dùng khi sử dụng sản phẩm của bạn.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="bg-blue-600 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-6">Hãy bắt đầu ngay hôm nay</h2>
+            <p class="text-lg mb-8">Tham gia cộng đồng của chúng tôi và khám phá các công cụ tuyệt vời để phát triển bản thân và công việc.</p>
+            <a href="#contact" class="bg-white text-blue-600 py-3 px-8 rounded-full text-lg font-semibold hover:bg-gray-100 transition duration-300">Liên Hệ Với Chúng Tôi</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-gray-800 mb-6">Liên Hệ</h2>
+            <p class="text-lg text-gray-600 mb-12">Chúng tôi luôn sẵn sàng hỗ trợ bạn trong mọi vấn đề. Đừng ngần ngại liên hệ với chúng tôi.</p>
+            <form action="#" method="POST" class="max-w-xl mx-auto">
+                <input type="text" name="name" placeholder="Họ và Tên" class="w-full mb-4 p-3 border border-gray-300 rounded-lg">
+                <input type="email" name="email" placeholder="Email" class="w-full mb-4 p-3 border border-gray-300 rounded-lg">
+                <textarea name="message" placeholder="Lời nhắn" rows="4" class="w-full mb-4 p-3 border border-gray-300 rounded-lg"></textarea>
+                <button type="submit" class="w-full py-3 bg-blue-600 text-white rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300">Gửi Lời Nhắn</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 text-center">
+        <p>&copy; 2025 Công Ty Của Bạn. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
