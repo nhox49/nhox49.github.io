@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>404 · Image not found</title>
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(180deg, #0f2027, #203a43, #2c5364);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #eee;
+    }
+
+    .bio {
+      background: rgba(255,255,255,0.06);
+      backdrop-filter: blur(14px);
+      width: 100%;
+      max-width: 380px;
+      padding: 32px 24px;
+      border-radius: 22px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00d4ff;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 10px 0 4px;
+      font-size: 26px;
+      color: #ff6b6b;
+    }
+
+    .username {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .desc {
+      font-size: 15px;
+      margin-bottom: 24px;
+      line-height: 1.5;
+      color: #ccc;
+    }
+
+    .links a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      background: rgba(255,255,255,0.08);
+      color: #fff;
+      padding: 13px 16px;
+      border-radius: 14px;
+      margin: 10px 0;
+      font-weight: 600;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+
+    .links a:hover {
+      transform: translateY(-2px);
+      background: rgba(0,212,255,0.25);
+    }
+
+    footer {
+      margin-top: 18px;
+      font-size: 12px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bio">
+    <img class="avatar" src="https://avatars.githubusercontent.com/u/18677745?v=4" alt="Avatar">
+
+    <h1>404</h1>
+    <div class="username">Image not found</div>
+
+    <div class="desc">
+      Ảnh bạn truy cập không tồn tại<br>
+      hoặc đã bị xoá khỏi hệ thống.
+    </div>
+
+    <div class="links">
+      <a href="https://dorew.io.vn">
+        <i class="fa-solid fa-blog"></i> Blog 
+      </a>
+    </div>
+
+    <footer>
+      © 2025 · img.dorew.io.vn
+    </footer>
+  </div>
+
+</body>
+</html>
